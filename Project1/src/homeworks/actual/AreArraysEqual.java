@@ -29,6 +29,8 @@ public class AreArraysEqual {
         System.out.println("Результат метода Arrays: " + equalMethod(A1, A2));
         System.out.println("Результат моего метода: " + myEqualMethod(A1, A2));
 
+        input.close();
+
     }
     public static boolean equalMethod (int[] X, int[] Y) {
         return Arrays.equals(X, Y);
